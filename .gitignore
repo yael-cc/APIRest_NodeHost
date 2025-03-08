@@ -4,3 +4,4 @@ node_modules/
 # Ignorar credenciales
 key.json
 .env
+.vscode

@@ -1,6 +1,5 @@
 // Importamos el módulo 'firebase-admin' para administrar Firebase desde el servidor
 const admin = require("firebase-admin");
-require('dotenv').config();
 
 // Importamos el archivo de configuración con las credenciales de Firebase
 const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
